@@ -27,5 +27,7 @@ module GoogleSheetsCourse
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    # If you are deploying on Heroku, you may want to set:
+    config.assets.initialize_on_precompile = false
   end
 end
